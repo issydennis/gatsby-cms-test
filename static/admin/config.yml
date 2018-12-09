@@ -15,3 +15,14 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+
+plugins: [
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/blog`,
+      name: "markdown-pages",
+    },
+  },
+  `gatsby-transformer-remark`,
+]
