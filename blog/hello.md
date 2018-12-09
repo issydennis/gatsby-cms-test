@@ -1,5 +1,5 @@
 ---
-path: /blog
+path: /blog/my-first-post
 date: 2018-12-09T13:52:03.231Z
 title: Hello
 ---
